@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RS Portfolio</title>    
+<link rel="stylesheet" href="/bootstrap.css">
+<script src="https://kit.fontawesome.com/b0c991958b.js"></script>
+<script src="/bootstrap.js"></script>
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: Helvetica , sans-serif;
+  color: azure;
+}
+
+main{
+  width: 100vw;
+  margin: 0 auto;
+  padding: 30px 20px; /*min-height: calc(100vh - 248px - 38px); make usable on other browser*/
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+footer{
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+a:hover{
+  color: #ECB807;
+}
+</style>
+</head>
+
+<body>
+<section class="container.fluid">
+    
+    <header class="bg-primary text-center">
+      <h2 style="font-weight:bolder; color: wheat; padding-top: 3%;" class="text-center text-uppercase mb-0">-Portfolio-</h2><br>
+    </header>
+   
+    <nav class="bg-primary">
+        <ul class="nav nav-tabs" style="padding: 0px 0px 0px 10px; ">
+        <li class="nav-item">
+            <a class="nav-link active" href="#aboutme top">About Me</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        </ul>
+    </nav>
+
+  <main>
+     <img src="/portfolioImage.PNG" style="position:fixed; border-radius:50%">
+    <!--Start of About Me Section-->  
+    <section class="row container-fluid" id="aboutme">
+        <div class="col-sm-3">
+            <!--creating a gap at the start of content-->
+        </div>
+        
+        <div class="col-sm-6 ">
+          <h1 class="text-center" style="font-weight:bold; color: #1D809F; margin-top: 10%;">Richard Hitesh Singh</h1><br>
+          <p style="color: black; text-align: left; font-size:large;">I am a student at Techtorium studying to become a Software Programmer | Developer. I am hardworking, reliable, and focused in addition to going above and beyond to support my team and serve customers accordingly. Apart from studying, I utilise my spare time in furthering my programming skills by studying online. I am proficient in HTML and CSS, with basic understanding of Bootstrap, SQL and JavaScript - though I continue to keep practicing to better understand these languages and framework.<br><br>
+          
+          Motivated to learn and grow as a Software Programmer | Developer. After my studies I would like to enter the field of Software Programming, Data Analytics or Database. I work well independently to handle assignments and always ready to go beyond basic requirements. Furthermore I believe I have satisfactory skills with computers.<br><br>
+              
+          I am a fast learner and really good at working solusly. Always passionate about creating website being both meaningful and customer oriented.
+          </p>     
+        </div>
+
+        <div class="col-sm-3">
+            <!--creating a gap at the end of content-->
+        </div>
+    </section>
+    <!--End of About Me Section-->  
+
+  <section class="container-fluid text-bg-primary text-center" id="projects">
+    <h1 class="text-center" style="font-weight:bold; color: #1D809F; margin-top: 10%;">My Projects</h1><br>
+  </section>
+
+
+  <!--Start of Project Section--> 
+  <section style="padding-top: 50px" class="container-fluid">
+   
+    <div class="container  mt-5">
+      <div class="row"><h2 class="mb-3 fw-normal text-uppercase text-bg-primary" style="text-align: center;">Websites</h2>
+        <div class="col-md-4 col-sm-6 bg-light text-center border-end border-bottom py-5 px-3" >
+            <i class="bi bi-people text-danger fs-1 " ></i>
+            <div class="container mt-3" style="background-color: #1D809F; padding:5px 0px; ">
+              <img src="/project_library.jpg" class="card-img" style="padding:10px 10px; height: 300px;" >
+              <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#project1">More Details</button>
+              <div id="project1" class="collapse" style="padding:5px">
+                <p style=" font-size: 20px; font-weight:bold; color: wheat; padding-top: 15px; text-align: left;">NZ Educational Library</p>
+                <p  style="font-size: 18px; font-weight:bold; text-align: left;"><a href="https://github.com/RichardHSingh/NZ_Educational_Library.git">GitHub Link</a></p>
+                <p  style="font-size: 16px; text-align: left">My first ever website developed and the intent was to have an educational website that incorporated Te Reo at local libraries. Project implements use of HTML, CSS and Javascript and consists of three pages. As this site isn't live, a link to GitHub Repository is available above.</p>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="col-md-4 col-sm-6 bg-light text-center border-end border-bottom py-5 px-3"> 
+            <i class="bi bi-people text-danger fs-1 "></i>
+            <div class="container mt-3" style="background-color: #1D809F; padding:5px 0px;">
+              <img src="/project_taylorswift.jpg" class="card-img" style="padding:10px 10px; height: 300px;" >
+              <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#project2">More Details</button>
+              <div id="project2" class="collapse" style="padding:5px">
+              <p style=" font-size: 20px; font-weight:bold; color: wheat; padding-top: 15px; text-align: left;">Taylor Swift Fan Page</p>
+              <p  style="font-size: 18px; font-weight:bold; text-align: left;"><a href="https://github.com/RichardHSingh/TaylorSwift_Fanpage.git">GitHub Link</a></p>
+              <p  style="font-size: 16px; text-align: left;">A project assigned during the Web Development paper at Techorium was to produce a fan page for Taylor Swift. With use of a Gnatt chart and waterfall methodology, we were tasked to record milestones and appropriate start/end dates. Project is produce with use of HTML and CSS. Unfortunaltely as this site isn't live, a link to GitHub Repository is available above.</p>
+              </div>
+            </div>
+          </div>  
+          
+          <div class="col-md-4 col-sm-6 bg-light text-center border-end border-bottom py-5 px-3">
+            <i class="bi bi-people text-danger fs-1 "></i>
+            <div class="container mt-3" style="background-color: #1D809F; padding:5px 0px;">
+              <img src="/project_news.jfif" class="card-img" style="padding:10px 10px; height: 300px;" >
+              <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#project3">More Details</button>
+              <div id="project3" class="collapse" style="padding:5px">
+              <p style=" font-size: 20px; font-weight:bold; color: wheat; padding-top: 15px; text-align: left;">NZ News</p>
+              <p  style="font-size: 18px; font-weight:bold; text-align: left;"><a href="https://github.com/RichardHSingh/Project_NZ_News.git">GitHub Link</a></p>
+              <p  style="font-size: 16px; text-align: left;">Second project assigned during the Web Development paper at Techorium was the task of producing a website that informed the users about current world events along two colums. Additionally a third coloumn was for advertising for ZARA, H&M and Life Insurance. This site consists of three pages and created with use of HTML and CSS. Sadly as this site isn't live, a link to GitHub Repository is available above.</p>
+              </div>
+            </div>
+          </div>    
+      </div>
+    </div> 
+    <div class="container mt-5 " >
+      <div class="row">
+        <div class="col-md-4 col-sm-6 bg-light text-center border-end border-bottom py-5 px-3">
+            <i class="bi bi-people text-danger fs-1 "></i>
+            <div class="container mt-3" style="background-color: #1D809F;  padding:5px 0px;">
+              <img src="/project_captivate.jpg" class="card-img" style="padding:10px 10px; height: 300px;" >
+              <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#project4">More Details</button>
+              <div id="project4" class="collapse" style="padding:5px">
+                <p style=" font-size: 20px; font-weight:bold; color: wheat; padding-top: 15px; text-align: left;">Captivate Interiors</p>
+                <p  style="font-size: 18px; font-weight:bold; text-align: left;"><a href="https://github.com/RichardHSingh/Captivate_Interior.git">GitHub Link</a></p>
+                <p  style="font-size: 16px; text-align: left;">Third project assigned during the Web Development paper at Techorium to which one had to produce a website for clients at Captivate Interiors. Site had to include <strong>"About the team"</strong>, <strong>"Contact"</strong> information with the addition of users being able to send the client a messsage, <strong>"Recent Projects"</strong> that the organisation has completed and a <strong>"Shop"</strong> section that allows the customers of the client to see what the client can service them with. Project implements use of HTML, CSS and Javascript and consists of four pages. Link to Github Repository is available as this project hasn't gone live yet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 bg-light text-center border-end border-bottom py-5 px-3">
+            <i class="bi bi-people text-danger fs-1 "></i>
+            <div class="container mt-3" style="background-color: #1D809F; padding:5px 0px;">
+              <img src="/project_firstclass.jpg" class="card-img" style="padding:10px 10px; height: 300px;" >
+              <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#project5">More Details</button>
+              <div id="project5" class="collapse" style="padding:5px">
+                <p style=" font-size: 20px; font-weight:bold; color: wheat; padding-top: 15px; text-align: left;">First-Class Interiors</p>
+                <p  style="font-size: 18px; font-weight:bold; text-align: left;"><a href="https://github.com/RichardHSingh/FirstClass_Interior_Agile.git">GitHub Link</a></p>
+                <p  style="font-size: 16px; text-align: left;">A group project was to create a website very similar to Captivate Interior project with the use of Agile methodology. With use of Trello Boards, group can see what task have compiled and with use of sprints, what the task for the day was. Project implements use of HTML, CSS and Javascript and consists of four pages. Link to Github Repository is available as this project hasn't gone live yet.</p>
+              </div>
+            </div>
+          </div>  
+          <div class="col-md-4 col-sm-6 bg-light text-center border-end border-bottom py-5 px-3">
+            <i class="bi bi-people text-danger fs-1 "></i>
+            <div class="container mt-3" style="background-color: #1D809F; padding:5px 0px;">
+              <img src="/project_katiacreations.PNG" class="card-img" style="padding:10px 10px; height: 300px;" >
+              <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#project6" id="change" onclick="changes()">More Details</button>
+              <div id="project6" class="collapse" style="padding:5px">
+                <p style=" font-size: 20px; font-weight:bold; color: wheat; padding-top: 15px; text-align: left;">Katia Creations</p>
+                <p  style="font-size: 18px; font-weight:bold; text-align: left;"><a href="">GitHub Link</a></p>
+                <p  style="font-size: 16px; text-align: left;">This project is still in progress. Working with the client and the project ought to be completed by January 2023.</p>
+              </div>
+            </div>
+          </div>    
+        </div>           
+    </section>
+    <!--End of Project Section--> 
+
+
+    <section class="container-fluid text-bg-primary text-center" id="contact">
+      <h1 class="text-center" style="font-weight:bold; color: #1D809F; margin-top: 10%;">Get in Touch</h1><br>
+    </section>
+
+  <!--Start Contact Me and Quiries Section-->  
+  <section class="row container-fluid" style="padding-top: 3%;">
+        
+    <div class="col-sm-2">
+        <!--creating a gap at the start of content-->
+    </div> 
+                                                  
+    <div class="col-sm-4 mt-3">
+      <h2 class="mb-3 fw-normal text-uppercase text-bg-primary" style="text-align: center;">Contact Me</h2>
+        <div class="text-center text-bg-secondary" style="padding-top: 75px; padding-bottom: 89px;" >
+        <ul class="list-unstyled mb-0">
+            <li><i class="fas fa-map-marker-alt fa-2x" style="color: #ECB807;"></i>
+                <p style="font-weight:600">Mangere, Auckland 2022, New Zealand</p>
+            </li>
+
+            <li><i class="fas fa-phone mt-4 fa-2x" style="color: #ECB807;"></i>
+                <p style="font-weight:600">+64 0211017557</p>
+            </li>
+
+            <li><i class="fas fa-envelope mt-4 fa-2x" style="color: #ECB807;"></i>
+                <p style="font-weight:600">rhsinghx@gmail.com</p>
+            </li>
+            </ul>
+        </div>
+    </div>  
+
+  <div class="col-sm-1">
+  <!--creating a gap in between content-->
+  </div>        
+
+  <div class="col-sm-4 mt-3">
+    <h2 class="mb-3 fw-normal text-uppercase text-bg-primary" style="text-align: center;">Queries</h2>
+    <form action="/action_page.php" class="text-bg-secondary" style="padding:0px 20px 10px 15px;">
+      <div class="mb-4 mt-3" style="padding-top: 40px;">
+        <label for="name" style="font-weight:600">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+      </div>
+      <div class="mb-3 mt-3">
+        <label for="email" style="font-weight:600">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="mb-3">
+        <label for="subject" style="font-weight:600">Subject:</label>
+        <input type="text" class="form-control" id="subject" placeholder="Enter subject" name="subject">
+      </div>
+      <div class="mb-3">
+        <label for="message" style="font-weight:600">Message:</label>
+        <textarea type="text" class="form-control" id="message" placeholder="Enter message" name="message"></textarea>
+      </div>
+      <button type="submit" style="background-color: #ECB807; margin-bottom:5px; color: black;" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+    
+  <div class="col-sm-1">
+    <!--creating a gap at the  end of content-->
+  </div>                
+</section>
+<!--End Contact Me and Quiries Section--> 
+        
+
+<footer class="text-center" style="background-color:  #1D809F; position: relative; margin-top: 12%;">
+  <div class="container pt-4">
+    <section class="mb-4">
+      <a class="btni btn-link btn-floating btn-lg text-dark m-1"  href="https://www.facebook.com">
+        <i  style="font-size: 25px;" class="fa-brands fa-facebook"></i></a>
+
+      <a class="btni btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com">
+        <i  style="font-size: 25px;" class="fa-brands fa-instagram"></i></a>
+        
+      <a class="btni btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/in/richard-singh-044750228/">
+        <i  style="font-size: 25px;" class="fa-brands fa-linkedin"></i></a>
+
+      <a class="btni btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/RichardHSingh">
+        <i  style="font-size: 25px;" class="fa-brands fa-github"></i></a>
+    </section>
+  </div>
+  
+  <div class="text-center text-dark p-3" style="background-color:  #1D809F">
+    <p style="font-weight:bold">Copyright&copy; <script> document.write(new Date().getFullYear());</script>, Richard Singh Portfolio </p>
+        <p style="font-weight:bold">All Rights Reserved</p><br>
+        <p style="font-weight:bold">Website developed by Richard "Xeroes" Singh</p>
+  </div>
+</footer>
+
+<button type="button" class="btn btn-danger btn-lg" id="btn-back-to-top">
+  <i class="fa-solid fa-circle-chevron-up"></i>
+</button>
+
+</main>
+</section>
+
+<script> /*script for the back to top button to appear further down the page*/
+
+  const mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 200px from the top of the page, shows the top button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 200 ||
+    document.documentElement.scrollTop > 200
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the webpage
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+//change the more details on cards to say Read Less when card is opened
+function changes(){
+  var title = document.getElementById("change");
+
+  if(title.textContent == "More Details")
+  {
+    title = "Read Less"
+  }
+  else{
+    title = "More Details"
+  }
+}
+</script>
+
+</body>
+</html>
